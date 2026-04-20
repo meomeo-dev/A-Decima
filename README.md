@@ -224,7 +224,7 @@ execution_protocol:
           - "git clone https://github.com/meomeo-dev/iwencai_skills.git <tool_root>/iwencai_skills"
           - "cd <tool_root>/iwencai_skills && python -m pip install ."
         deep_research:
-          - "version: 0.1.7"
+          - "version: 0.1.8"
           - "git clone https://github.com/meomeo-dev/deep-research.git <tool_root>/deep-research"
           - "cd <tool_root>/deep-research && pnpm run install:cli"
           - "deep-research sidecar_setup --project <workdir> --run-setup"
