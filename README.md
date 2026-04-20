@@ -50,7 +50,7 @@
 ```yaml
 execution_protocol:
   name: "通用策略研究标准流程"
-  version: "1.3"
+  version: "1.4"
   intended_use: >
     适用于先完成研究设计与边界确认，再使用 deep-research 管理研究状态、
     证据链、报告工件与 DAG，同时结合 deepseek 做公开网页搜索、
@@ -213,6 +213,7 @@ execution_protocol:
         - "检查 deepseek、iwencai、deep-research 命令是否已存在；若均可用则跳过本阶段"
       install_commands:
         deepseek:
+          - "version: 0.1.6"
           - "package: deepseek-cdp-cli"
           - "npm install -g deepseek-cdp-cli"
           - "deepseek --help"
